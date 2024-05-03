@@ -1,0 +1,50 @@
+.object {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    position: absolute;
+}
+
+.object:active {
+    background-color: rgb(171, 65, 171);
+    width: 95px;
+    height: 95px;
+}
+
+.blue {
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.white {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    float: left;
+    margin-left: 200px;
+    margin-top: 350px;
+}
+
+.yellow {
+    width: 120px;
+    height: 120px;
+    background-color: yellow;
+    float: left;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+.appInfo {
+    font-size: 50px;
+    opacity: 0.4;
+    position: absolute; 
+    margin-left: 300px;
+    margin-top: 190px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
